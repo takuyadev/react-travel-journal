@@ -1,21 +1,31 @@
-# co13948a1a4b69d0955b22b47
+# React Travel Journal - Scrimba
 
-Quick start:
+### `The Challenge`
+
+The challenge was to create a travel journal only using vanilla React framework to create a page using compositional methods, and was part of the Solo Project for the "The Front-End Developer Career Path" course on Scrimba.
+
+### `Summary`
+
+This project is a small travel journal where it tracks where you went for travel, and bookmarks all details associated with the travel including place, time, and summary of the location.
+
+### `Languages / Techstack`
+
+- React
+
+### `Quick start`
 
 ```
 $ yarn # npm install
 $ yarn build # npm run build
 ````
 
-## Development
+### `Resources`
 
-Run Webpack in watch-mode to continually compile the JavaScript as you work:
+#### The Frontend Developer Career Path
 
-```
-$ yarn watch # npm run watch
-```
+https://scrimba.com/learn/frontend
 
-## About Scrimba
+### `About Scrimba`
 
 At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
 If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
