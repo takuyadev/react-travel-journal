@@ -17,11 +17,11 @@ export default function App(){
         }
     )
     return (
-        <>
+        <div>
             <Header/>
             <main className="journal-list">
                 {cards}
             </main>
-        </>
+        </div>
     )
 }
