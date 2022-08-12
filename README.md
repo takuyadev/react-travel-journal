@@ -1,10 +1,10 @@
 # React Travel Journal - Scrimba
 
-### `The Challenge`
-
-The challenge was to create a travel journal only using vanilla React framework to create a page using compositional methods, and was part of the Solo Project for the "The Front-End Developer Career Path" course on Scrimba.
+This project is deployed at the [link here.](https://react-travel-app-scrimba.netlify.app/)
 
 ### `Summary`
+
+This project is part of the Solo Project section of the "The Front-End Developer Crash Course", where the student is required to finish the project on their own without extensive help.
 
 This project is a small travel journal where it tracks where you went for travel, and bookmarks all details associated with the travel including place, time, and summary of the location.
 
