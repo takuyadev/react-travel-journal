@@ -3,7 +3,7 @@ import React from 'react'
 export default function Card(props){
     return (
         <section className="card">
-            <img className="card__image" src={props.item.imageUrl}/>
+            <img className="card__image" src={props.item.imageUrl} alt={props.item.location}/>
             <div className="card__information">    
                 <div className="card__tags">
                     <div className="card__location">
