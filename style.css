@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body,
+html{
+    margin: 0;
+}
+
+:root{
+    --primary-red: #F55A5A;
+    --grey-500: #2B283A;
+    --grey-900: #918E9B;
+    --fs-l: 1.5rem;
+    --fs-m: 1rem;
+    --fs-s: 0.675rem;
+}
+
+p{
+    line-height: 1.5rem;
+}
+
+hr {
+  border: 0;
+  width: 100%;               
+  background-color:#CCCCCC;
+  height: 1px;
+}
+
+.header{
+    display:flex;
+    place-content:center;
+    align-items: center;
+    padding: 0.5em;
+    gap: 8px;
+    background: var(--primary-red);
+}
+
+.header > img{
+    height: 30px
+}
+
+.header > p{
+    color: #FFFFFF;
+    font-size: var(--fs-l);
+    letter-spacing: -2px;
+}
+
+.journal-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    padding: 2em;
+    grid-gap: 2em;
+}
+
+.card{
+    display:flex;
+    margin-bottom: 2em;
+    gap: 2em;
+}
+
+.card__title{
+    margin-top: 0;
+}
+
+.card__image{
+    max-width: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.card__tags,
+.card__location{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.card__location > p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.card__tags > a {
+    color: var(--grey-500);    
+}
+
+.card__description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.card__tags{
+    gap: 16px;
+}
+
