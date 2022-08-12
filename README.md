@@ -6,7 +6,7 @@ This project is deployed at the [link here.](https://react-travel-app-scrimba.ne
 
 This project is part of the Solo Project section of the "The Front-End Developer Crash Course", where the student is required to finish the project on their own without extensive help.
 
-This project is a small travel journal where it tracks where you went for travel, and bookmarks all details associated with the travel including place, time, and summary of the location.
+This application is a small travel journal where it tracks where you went for travel, and bookmarks all details associated with the travel including place, time, and summary of the location.
 
 ### `Languages / Techstack`
 
