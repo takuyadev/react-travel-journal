@@ -1,4 +1,4 @@
-export default [
+export const data =[
     {
         title: "Mount Fuji",
         location: "Japan",
